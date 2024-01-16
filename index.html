@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Le Pomodoro</h1>
+    <div class="display">
+        <div class="block">
+            <p class="description work">Travail</p>
+            <p class="work-display-time time">30.00</p>
+        </div>
+        <div class="block">
+            <div class="description rest">Repos</div>
+            <div class="pause-display-time time">5.00</div>
+        </div>
+    </div>
+    <div class="buttons-container">
+        <button class="btn toggle-btn">
+            <img src="assets/play-solid.svg" data-toggle ="play" alt="icone jouer">
+        </button>
+        <button class="btn reset-btn">
+            <img src="assets/arrow-rotate-left-solid.svg" alt="icone reset">
+        </button>
+    </div>
+    <p class="cycles">Cycles : 0</p>
+    <script src="script.js"></script>
+</body>
+</html>
